@@ -17,6 +17,17 @@ PACKAGES = "\
             packagegroup-framework-tools-base-python3   \
             "
 
+RDEPENDS:packagegroup-framework-tools-base-myir = "\
+   udev-extraconf \
+   valgrind \
+   iperf3 \
+   serialcheck \
+   ppp \
+   gawk \
+   vim \
+   libmodbus \
+   python3-pip \
+   "
 # Manage to provide all framework tools base packages with overall one
 RDEPENDS:packagegroup-framework-tools-base = "\
     packagegroup-framework-tools-base-core      \
